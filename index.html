@@ -1,0 +1,1010 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* google font */
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Spline+Sans:wght@300..700&display=swap");
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- fontawesome  -->
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="asset/custom/style.css" type="text/css" />
+    <title>Galaxy</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./asset/images/galaxy1.svg" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <label class="hamburger">
+            <input type="checkbox" />
+            <svg viewBox="0 0 32 32">
+              <path
+                class="line line-top-bottom"
+                d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"
+              ></path>
+              <path class="line" d="M7 16 27 16"></path>
+            </svg></label>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#carouselExampleControls">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#feature">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#reservation">Reservation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#blog">Blog</a>
+            </li>
+          </ul>
+          <!-- <a href="#" class="btn btn-brand">Order Online</a> -->
+          <!-- Button trigger modal -->
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-brand" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Book Table
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content p-4 justify-content center text-center">
+      <div class="modal-header ">
+        <h5 class="modal-title" id="exampleModalLabel">Book your Table</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <form action="#" class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="row g-3">
+              <div class="rsrv-form col-md-6">
+               <input type="text" class="form-control" placeholder="Full name">
+              </div>
+              <div class="rsrv-form col-md-6">
+               <input type="email" class="form-control" placeholder="Email address">
+              </div>
+              <div class="rsrv-form col-md-6">
+               <input type="date" id="inputdate" class="form-control" placeholder="Date">
+              </div>
+              <div class="rsrv-form col-md-6">
+               <input type="time" class="form-control" placeholder="Time">
+              </div>
+  
+              <div class="rsrv-form col-md-12">
+               <textarea cols="100" rows="4" class="form-control col-md-12" placeholder=" Massege"></textarea>
+              </div>
+              <div class="rsrv-form col-md-12 text-center">
+               <a href="#" class="btn btn-brand">Confirm Booking</a>
+              </div>
+
+            </div>
+          </div>
+        </form>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- banner slider -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item text-center bg-cover vh-100 slide-1 active">
+          <div class="container h-100 d-flex align-items-center justify-content-center">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h6 class="text-white">WELCOME TO GALAXY</h6>
+                    <h1 class="display-1 fw-bold text-white">Char-grilled and flavour-filled</h1>
+                    <a href="#" class="btn btn-brand">Book Table</a>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item text-center bg-cover vh-100 slide-2">
+          <div class="container h-100 d-flex align-items-center justify-content-center">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h6 class="text-white">WELCOME TO GALAXY</h6>
+                    <h1 class="display-1 fw-bold text-white">Fresh and Tasty Food</h1>
+                    <a href="#" class="btn btn-brand">Book Table</a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- banner slider end-->
+     <!-- demo -->
+     <!-- <div class=" col-lg-12 hero-header d-flex m-0 pb-2">
+      <div class="container">
+      <div class="row text-center">
+        <h2 class="text-white">abc</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="col-lg-6 overflow-hidden">
+        <img src="./asset/images/food.png" alt="">
+      </div>
+      </div>
+     </div> -->
+     <!-- demo -->
+
+    <!-- about section -->
+     <section id="about">
+        <div class="container about">
+            <div class="row gy-4 gy-lg-0 align-items-center">
+                <div class="col-lg-6 about-img">
+                    <img src="./asset/images/about-img.jpg" alt="healthy-food">
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <h1>About Us</h1>
+                    <div class="divider my-4"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi reiciendis magnam saepe praesentium labore ab accusamus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quos ea autem totam sint asperiores magnam illum magni, atque aspernatur odio</p>
+                    <a href="#menu" class="btn btn-brand">Explore Menu</a>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- about section end-->
+
+    <!-- Menu -->
+     <section id="menu" class="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Explore Our Menu</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam pariatur nihil omnis asperiores!</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <ul class="nav nav-pills mb-3 justify-content-center pb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link btn-brand active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">All Dishes</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link btn-brand" id="pills-breakfast-tab" data-bs-toggle="pill" data-bs-target="#pills-breakfast" type="button" role="tab" aria-controls="pills-breakfast" aria-selected="false">Breakfast</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link btn-brand" id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch" type="button" role="tab" aria-controls="pills-lunch" aria-selected="false">Lunch</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link btn-brand" id="pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#pills-dinner" type="button" role="tab" aria-controls="pills-dinner" aria-selected="false">Dinner</button>
+                </li>
+        
+            </ul>
+           <div class="tab-content" id="pills-tabContent">
+             <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                <div class="row gy-4">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/platter lunch.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Bread Rice Meal</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/Idli dosa.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Dosa Meal</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/pasta.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Pasta</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/pizza.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Pizza</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/poha.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Bread Rice Meal</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/pasta.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Pasta</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/pizza.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Pizza</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/poha.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Poha</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <div class="tab-pane fade" id="pills-breakfast" role="tabpanel" aria-labelledby="pills-breakfast-tab">
+                <div class="row gy-4">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/poha.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Poha</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/Idli dosa.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Idli</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/puri.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Puri Sabji</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+           
+             <div class="tab-pane fade" id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab">
+                <div class="row gy-4">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/platter lunch.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Bread Rice Meal</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/Idli dosa.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Idli</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/platter lunch.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Bread Rice Meal</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/platter lunch.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Bread Rice Meal</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/Idli dosa.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Idli</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/platter lunch.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Bread Rice Meal</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            
+             <div class="tab-pane fade" id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab">
+                <div class="row gy-4">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/puri.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Bread Rice Meal</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/pasta.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Pasta</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/puri.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Bread Rice Meal</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item">
+                            <img src="./asset/images/puri.jpg" alt="">
+                            <div class="menu-item-content px-2">
+                              <div class="star my-2">
+                                <span>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </span>
+                                <span class="rate">Rated(5.4k)</span>
+                              </div>
+                              <h5 class="mt-1 mb-2">Bread Rice Meal</h5>
+                              <p>A classic Indo-Chinese dish, fried rice with chilli chicken is a popular choice for a hearty and satisfying meal. The combination of soft, chewy rice and crispy, spicy chicken creates a wonderful contrast of textures and flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+             </div>
+             </div>
+
+            </div>
+     </section>
+    <!-- Menu end -->
+
+    <!-- feature -->
+     <section id="feature" class="feature bg-cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1 class="text-white">Why to choose us?</h1>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt commodi pariatur non iure error cumque corrupti velit placeat adipisci iste</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature-card p-4 text-center">
+                        <div class="feature-icon"><i class="fa-duotone fa-solid fa-wifi"></i></div>
+                        <h5 class="text-white mt-4 mb-2">Free Wifi</h4>
+                        <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, tenetur.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature-card p-4 text-center">
+                        <div class="feature-icon"><i class="fa-regular fa-truck-fast"></i></div>
+                        <h4 class="text-white mt-4 mb-2">Fast Delevery</h4>
+                        <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, tenetur.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature-card p-4 text-center">
+                        <div class="feature-icon"><i class="fa-solid fa-users"></i></div>
+                        <h4 class="text-white mt-4 mb-2">Friendly Staff</h4>
+                        <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, tenetur.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature-card p-4 text-center">
+                        <div class="feature-icon"><i class="fa-regular fa-trophy-star"></i></div>
+                        <h4 class="text-white mt-4 mb-2">Highly Rated</h4>
+                        <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, tenetur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- feature end -->
+
+    <!-- Team -->
+     <section id="team">
+      <div class="container">
+        <div class="row">
+            <div class="col-12 intro-text">
+                  <h1>Our Team Members</h1>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam pariatur nihil omnis asperiores!</p>
+            </div>
+        </div>
+            <div class="row gy-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="team-member text-center">
+                  <img class="mb-3" src="./asset/images/avatar_3.jpg" alt="">
+                  <div class="team-member-content">
+                    <h5>Master Jon</h5>
+                    <p class="mb-1">Main Chef</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="team-member text-center">
+                  <img class="mb-3" src="./asset/images/avatar_4.jpg" alt="">
+                  <div class="team-member-content">
+                    <h5>Master Jon</h5>
+                    <p class="mb-1">Main Chef</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="team-member text-center">
+                  <img class="mb-3" src="./asset/images/avatar_3.jpg" alt="">
+                  <div class="team-member-content">
+                    <h5>Master Jon</h5>
+                    <p class="mb-1">Main Chef</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="team-member text-center">
+                  <img class="mb-3" src="./asset/images/avatar_4.jpg" alt="">
+                  <div class="team-member-content">
+                    <h5>Master Jon</h5>
+                    <p class="mb-1">Main Chef</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+     </section>
+    <!-- Team -->
+
+    <!-- review -->
+      <section id="review" class="review-section bg-cover">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 intro-text">
+                        <h1 class="text-white">Our Client Saying</h1>
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt commodi pariatur non iure error cumque corrupti velit placeat adipisci iste</p>
+                    </div>
+                </div>
+                <div id="reviewSlider" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                         <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                            <div class="review bg-white p-5 text-center">
+                              <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                              <p mb-0>This hidden gem offers amazing food with a very casual, friendly vibe. The paneer sliders were incredibly flavorful, and the cocktails were inventive. Although it was a bit noisy on a Friday night, the staff were friendly and efficient. Definitely worth a visit for a fun, casual meal.</p> 
+                              <div class="person">
+                                <img src="./asset/images/person1.jpg" alt="">
+                                <h5 class="m-2">Riteish Rao</h5>
+                                <div>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                         </div>
+                        </div>
+                        <div class="carousel-item">
+                        <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                            <div class="review bg-white p-5 text-center">
+                              <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                              <p mb-0>This hidden gem offers amazing food with a very casual, friendly vibe. The paneer sliders were incredibly flavorful, and the cocktails were inventive. Although it was a bit noisy on a Friday night, the staff were friendly and efficient. Definitely worth a visit for a fun, casual meal.</p> 
+                              <div class="person">
+                                <img src="./asset/images/person2.jpg" alt="">
+                                <h5 class="m-2">Jenney Doe</h5>
+                                <div>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                         </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#reviewSlider" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#reviewSlider" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    </div>
+        </div>
+        </section>
+    <!-- review -->
+
+    <!-- Reservation -->
+    <section id="reservation" >
+      <div class="container">
+      <div class="row">
+            <div class="col-12 intro-text">
+                  <h1>Book Your Table</h1>
+            </div>
+        </div>
+        <form action="#" class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="row g-3">
+              <div class="rsrv-form col-md-6">
+               <input type="text" class="form-control" placeholder="Full name">
+              </div>
+              <div class="rsrv-form col-md-6">
+               <input type="email" class="form-control" placeholder="Email address">
+              </div>
+              <div class="rsrv-form col-md-6">
+               <input type="date" id="inputdate" class="form-control" placeholder="Date">
+              </div>
+              <div class="rsrv-form col-md-6">
+               <input type="time" class="form-control" placeholder="Time">
+              </div>
+  
+              <div class="rsrv-form col-md-12">
+               <textarea cols="100" rows="4" class="form-control col-md-12" placeholder=" Massege"></textarea>
+              </div>
+              <div class="rsrv-form col-md-12 text-center">
+               <a href="#" class="btn btn-brand">Confirm Booking</a>
+              </div>
+
+            </div>
+          </div>
+        </form>
+        </div>
+    </section>
+
+    <!-- Reservation -->
+
+    <!-- blog -->
+     <section id="blog">
+      <div class="container">
+        <div class="row">
+            <div class="col-12 intro-text">
+              <h1>Latest Bolgs</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt commodi pariatur non iure error cumque corrupti velit placeat adipisci iste</p>
+            </div>
+            <div class="row gy-3">
+              <div class="col-lg-6 mb-2">
+                <div class="blog-post d-flex">
+                  <img src="./asset/images/cake.jpg" alt="">
+                  <div class="blog-post-content p-4">
+                    <p>Posted : 12 Jan 2026</p>
+                    <h4><a href="#" class="text-dark">How to bake a cake</a></h4>
+                    <p>facilis porro libero exercitationem et provident inventore accusantium tenetur voluptatum molestiae?</p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 mb-2">
+                <div class="blog-post d-flex">
+                  <img src="./asset/images/pasta-make.jpg" alt="">
+                  <div class="blog-post-content p-4">
+                    <p>Posted : 12 Jan 2026</p>
+                    <h4><a href="#" class="text-dark">How to chop vagetables</a></h4>
+                    <p>facilis porro libero exercitationem et provident inventore accusantium tenetur voluptatum molestiae?</p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 mb-2">
+                <div class="blog-post d-flex">
+                  <img src="./asset/images/pasta-make.jpg" alt="">
+                  <div class="blog-post-content p-4">
+                    <p>Posted : 12 Jan 2026</p>
+                    <h4><a href="#" class="text-dark">How to make delecious pasta</a></h4>
+                    <p>facilis porro libero exercitationem et provident inventore accusantium tenetur voluptatum molestiae?</p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 mb-2">
+                <div class="blog-post d-flex">
+                  <img src="./asset/images/cake.jpg" alt="">
+                  <div class="blog-post-content p-4">
+                    <p>Posted : 12 Jan 2026</p>
+                    <h4><a href="#" class="text-dark">How to bake a cake</a></h4>
+                    <p>facilis porro libero exercitationem et provident inventore accusantium tenetur voluptatum molestiae?</p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 mb-2">
+                <div class="blog-post d-flex">
+                  <img src="./asset/images/cake.jpg" alt="">
+                  <div class="blog-post-content p-4">
+                    <p>Posted : 12 Jan 2026</p>
+                    <h4><a href="#" class="text-dark">How to bake a cake</a></h4>
+                    <p>facilis porro libero exercitationem et provident inventore accusantium tenetur voluptatum molestiae?</p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 mb-2">
+                <div class="blog-post d-flex">
+                  <img src="./asset/images/pasta-make.jpg" alt="">
+                  <div class="blog-post-content p-4">
+                    <p>Posted : 12 Jan 2026</p>
+                    <h4><a href="#" class="text-dark">How to bake a cake</a></h4>
+                    <p>facilis porro libero exercitationem et provident inventore accusantium tenetur voluptatum molestiae?</p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+        </div>
+      </div>
+
+     </section>
+
+    <!-- Footer -->
+
+    <footer>
+      <div class="footer-top py-4">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-3">
+              <img src="./asset/images/galaxy-blackWhite.svg" alt="" class="logo mb-4">
+              <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, fuga.</p>
+              <div class="social-link">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-3 offset-lg-3">
+              <h6 class="text-white">Contact</h6>
+              <p class="mb-1">Phone: 987654123</p>
+              <p class="mb-1">Email: Enquires@gmail.com</p>
+              <p class="m-0">Address: 524s, abcdk, okrdgglkmf 749875</p>
+            </div>
+
+            <div class="col-lg-3">
+              <h6 class="text-white">Opening Hours</h6>
+              <p class="mb-1">Mon - Fri : 11:00am - 9:00pm </p>
+              <p class="mb-1">Sat - Sun : 11:00am - 7:00pm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom py-3">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-auto">
+              <p class="copy mb-0">Copiright all rights reserved</p>
+            </div>
+            <div class="col-auto">
+              <p class="copy mb-0">Designed by Amrita</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+  </body>
+</html>
